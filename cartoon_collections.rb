@@ -8,7 +8,6 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |calls|
     calls.capitalize
     calls << "!"
-    planeteer_calls
   end
 end
 
